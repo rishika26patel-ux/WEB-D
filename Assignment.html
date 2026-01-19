@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+                perspective: 900px;
+        }
+    #main{
+        height: 300px;
+        width: 300px;
+        margin: 10px auto;
+        transition: 3s;
+        position: relative;
+        transform-style: preserve-3d;
+    }
+    #main:hover{
+        transform: rotateY(180deg);
+    }
+    #card_a{
+        height: 50%;
+        width: 100%;
+        position: absolute;
+         z-index:7;
+         backface-visibility: hidden;
+    }
+    #card_b{
+        height:50%;
+        width: 100%;
+        z-index: 3;
+        transform: rotateY(180deg);
+        background-color: rgb(210, 241, 54);
+        position: absolute;
+        color: rgb(20, 20, 21);
+    }
+     #img{
+        height: 50%;
+        width: 100%;
+    }  
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="card_a">
+          <img src="https://media.istockphoto.com/id/1486502537/photo/prem-mandir-is-a-hindu-temple-dedicated-to-shri-radha-krishna-located-in-the-holy-city-of.jpg?s=1024x1024&w=is&k=20&c=0fxzSLgQFd7y6fWEpgZhEMfeUls_OfA_JL393jiCBe4=">
+        </div>
+        <div id="card_b">
+       ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe   ShriRadhe 
+        </div>
+    </div>
+</body>
+</html>
