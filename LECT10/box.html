@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+   #parent{
+    border: 3px solid black;
+    display: grid;
+    height: 700px;
+    gap: 20px;
+    grid-template-columns: 100px,100px; 
+    grid-template-rows: 100px,100px;
+    /* grid-auto-flow: column; */
+   }
+   .child{
+    background-color: cadetblue;
+    border: 1px solid rgb(8, 75, 29);
+   }
+
+   #one{
+    background-color: blue;
+   }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div class="child" id="one">1</div>
+        <div class="child" id="two">2</div>
+        <div class="child" id="three">3</div>
+        <div class="child" id="four">4</div>
+        <div class="child" id="five">5</div>
+        <div class="child" id="six">6</div>
+        <div class="child" id="seven">7</div>
+        <div class="child" id="eight">8</div>
+        <div class="child" id="nine">9</div>
+        <div class="child" id="ten">10</div>
+        <div class="child" id="eleven">11</div>
+        <div class="child" id="twelve">12</div>
+    </div>
+</body>
+</html
