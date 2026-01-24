@@ -83,3 +83,11 @@ h1 span {
   width: 300px;
   border-radius: 50%;
 }
+
+i{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+}
