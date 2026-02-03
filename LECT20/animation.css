@@ -1,15 +1,14 @@
 .box {
-    width: 100px;
-    height: 100px;
+    width: 1000px;
+    height: 1000px;
     background-color: red;
-    position: relative; /* Required for position properties like 'left' to work */
+    position: relative; 
     animation-name: myAnimation;
     animation-duration: 4s;
-    animation-iteration-count: infinite; /* Repeats the animation forever */
-    animation-direction: alternate; /* Plays forward then backward */
+    animation-iteration-count: infinite; 
+    animation-direction: alternate; 
 }
 .box {
-    /* ... other styles ... */
     animation: myAnimation 4s infinite alternate;
 }
 
