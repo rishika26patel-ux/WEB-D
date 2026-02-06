@@ -1,0 +1,40 @@
+/* 1. Base style for the element */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative; /* Required for 'top'/'left' properties to work */
+    animation-name: slide-and-change; /* Links to the @keyframes rule */
+    animation-duration: 4s; /* Duration of one animation cycle */
+    animation-iteration-count: infinite; /* Makes the animation repeat indefinitely */
+    animation-direction: alternate; /* Plays forward then backward */
+}
+
+/* 2. Keyframes rule to define the animation steps */
+@keyframes slide-and-change {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+    50% {
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+    100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
